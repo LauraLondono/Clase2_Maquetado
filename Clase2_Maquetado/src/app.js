@@ -28,10 +28,10 @@ window.onscroll = () => {
     // Movil
     if (window.pageYOffset >= 50) { //PageYOffset: distancia desde el punto inicial al desplazamiento 
       footerM.classList.remove("hide");      
-      searchB.classList.add("hide");
+      //searchB.classList.add("hide");
       
     } else {
-      footerM.classList.add("hide");
+      //footerM.classList.add("hide");
       searchB.classList.remove("hide");
     }
   }
